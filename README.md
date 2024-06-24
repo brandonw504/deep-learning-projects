@@ -15,5 +15,5 @@ This project involved making several modifications to existing nanoGPT code, req
 This project involved performing knowledge distillation on a vision transformer. I first finetuned (on the CIFAR 10 dataset) a large model that was pretrained on ImageNet, which I used as the ground truth for training a smaller model. The goal is to produce a small model that can run on a small device, but with better performance than just the small model alone. We do in fact see improvement in performance.
 
 ## References
-nanoGPT: https://github.com/karpathy/nanoGPT
-Vision Transformer: https://github.com/soroush-abbasi/289L_AdvDL
+- nanoGPT: https://github.com/karpathy/nanoGPT
+- Vision Transformer: https://github.com/soroush-abbasi/289L_AdvDL
